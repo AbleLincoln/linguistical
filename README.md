@@ -1,7 +1,21 @@
-# Vue 3 + Vite
+# Linguistical
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+**GitHub language stats visualizer**
 
-## Recommended IDE Setup
+See that cool language graph over there? ➡️
+
+This is a Vue component that displays that data on your own site!
+
+Origin: _linguistic + graphical_
+
+## Usage
+
+1. import component
+2. ???
+3. profit
+
+## Development
+
+### Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
