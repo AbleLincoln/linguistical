@@ -1,8 +1,16 @@
 {
   "name": "linguistical",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "files": ["dist"],
+  "main": "./dist/linguistical.umd.cjs",
+  "module": "./dist/linguistical.js",
+  "exports": {
+    ".": {
+      "import": "./dist/linguistical.js",
+      "require": "./dist/linguistical.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
