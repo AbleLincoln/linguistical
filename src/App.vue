@@ -6,10 +6,10 @@ import Linguistical from './Linguistical.vue'
   <main>
     <h2>Demo</h2>
     <p>Theme: dark</p>
-    <Linguistical user="AbleLincoln" repo="wymanandthewolves" theme="dark" />
+    <Linguistical user="AbleLincoln" repo="linguistical" theme="dark" />
 
     <p>Theme: light/none</p>
-    <Linguistical user="AbleLincoln" repo="wymanandthewolves" />
+    <Linguistical user="AbleLincoln" repo="linguistical" />
 
     <h2>Usage</h2>
     <div class="codeblock">
