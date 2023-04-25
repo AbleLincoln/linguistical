@@ -4,8 +4,8 @@ _graphical linguistics!_
 
 **Visualize your GitHub repository's language stats**
 
-![Dark theme](demo-dark.png)
-![Light theme](demo-light.png)
+![Dark theme](public/demo-dark.png)
+![Light theme](public/demo-light.png)
 
 A near perfect replica of the GitHub language stats graph built for Vue! Pulls code data right from your repository so it is always up to date.
 

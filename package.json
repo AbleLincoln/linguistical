@@ -1,6 +1,7 @@
 {
   "name": "linguistical",
-  "version": "0.2.1",
+  "version": "0.2.2",
+  "repository": "github:AbleLincoln/linguistical",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/linguistical.umd.cjs",
