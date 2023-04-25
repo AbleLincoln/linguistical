@@ -1,6 +1,6 @@
 # Linguistical 📊
 
-Visualize your GitHub repository's language breakdown
+GitHub language stats Vue component
 
 ![Dark theme](public/demo-dark.png)
 ![Light theme](public/demo-light.png)
