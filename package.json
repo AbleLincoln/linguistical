@@ -1,7 +1,10 @@
 {
   "name": "linguistical",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "repository": "github:AbleLincoln/linguistical",
+  "keywords": [
+    "github", "language", "graph", "statistics", "percentage", "vue", "component"
+  ],
   "type": "module",
   "files": ["dist"],
   "main": "./dist/linguistical.umd.cjs",
