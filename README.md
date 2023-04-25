@@ -1,20 +1,55 @@
-# Linguistical
+# Linguistical 📊
 
-**GitHub language stats visualizer**
+_graphical linguistics!_
 
-See that cool language graph over there? ➡️
+**Visualize your GitHub repository's language stats**
 
-This is a Vue component that displays that data on your own site!
+![Dark theme](demo-dark.png)
+![Light theme](demo-light.png)
 
-Origin: _linguistic + graphical_
+A near perfect replica of the GitHub language stats graph built for Vue! Pulls code data right from your repository so it is always up to date.
 
-## Usage
+Great for
 
-1. import component
-2. ???
-3. profit
+- portfolio sites
+- project wikis
+- and more
 
-## Development
+## Getting Started
+
+1. Install the [GitHub app](https://github.com/apps/linguistical-app) so Linguistical can access your data
+2. Install the Linguistical library to your Vue project: `npm i linguistical`
+3. Import and implement the component anywhere in your project (don't forget the CSS!). Make sure to pass it your username and the repository name that you want to pull stats from:
+
+```vue
+<script>
+import Linguistical from 'linguistical'
+import('linguistical/dist/style.css')
+</script>
+
+<template>
+  <Linguistical user="username" repo="reponame" />
+</template>
+```
+
+## Customization
+
+Currently Linguistical supports two themes: `light` and `dark`. `light` is default. The styling is copied from GitHub's light and dark themes.
+
+Theming is controlled with the `theme` prop:
+
+```vue
+<Linguistical theme="dark" user="username" repo="reponame" />
+```
+
+## Contribution
+
+To run the demo app:
+
+```sh
+npm install
+npm run dev
+```
 
 ### Recommended IDE Setup
 
