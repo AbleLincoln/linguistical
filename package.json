@@ -1,6 +1,6 @@
 {
   "name": "linguistical",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "repository": "github:AbleLincoln/linguistical",
   "keywords": [
     "github", "language", "graph", "statistics", "percentage", "vue", "component"
@@ -13,6 +13,10 @@
     ".": {
       "import": "./dist/linguistical.js",
       "require": "./dist/linguistical.umd.cjs"
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
     }
   },
   "scripts": {
