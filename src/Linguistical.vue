@@ -137,18 +137,10 @@ a {
   line-height: 18px;
 }
 
-a:hover {
+a:hover,
+a:hover .language,
+a:hover .size {
   color: #539bf5 !important;
-}
-
-.language {
-  font-weight: 600;
-  margin-right: 4px;
-  color: var(--linguistical-text-primary);
-}
-
-a:hover .language {
-  color: inherit !important;
 }
 
 .circle {
@@ -159,11 +151,13 @@ a:hover .language {
   border-radius: 100%;
 }
 
-.size {
-  color: var(--linguistical-text-secondary);
+.language {
+  font-weight: 600;
+  margin-right: 4px;
+  color: var(--linguistical-text-primary);
 }
 
-a:hover .size {
-  color: inherit !important;
+.size {
+  color: var(--linguistical-text-secondary);
 }
 </style>
