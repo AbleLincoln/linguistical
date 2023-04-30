@@ -24,7 +24,7 @@ const url = ref('')
 
 onBeforeMount(async () => {
   const response = await fetch(
-    `https://linguistiql.onrender.com/stats?user=${props.user}&repo=${props.repo}`
+    `https://linguistiql.fly.dev/stats?user=${props.user}&repo=${props.repo}`
   )
   const data = await response.json()
 
